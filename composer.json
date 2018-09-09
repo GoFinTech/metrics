@@ -1,0 +1,16 @@
+{
+  "name": "gofintech/metrics",
+  "description": "Microscopic PHP telemetry library for batch processes",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "GoFinTech\\Metrics\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/metrics-probe.php"
+  ]
+}
