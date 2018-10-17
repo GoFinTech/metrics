@@ -9,8 +9,5 @@
     "psr-4": {
       "GoFinTech\\Metrics\\": "src/"
     }
-  },
-  "bin": [
-    "bin/metrics-probe.php"
-  ]
+  }
 }
